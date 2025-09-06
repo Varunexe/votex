@@ -184,6 +184,6 @@ export const markUserAsVoted = (): void => {
 };
 
 // Dummy for deployment – not used in demo
-export const createOrUpdateUser = () => {
+export const createOrUpdateUser = (_?: any) => {
   console.warn("createOrUpdateUser is a stub in demo mode");
 };

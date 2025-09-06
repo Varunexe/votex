@@ -182,3 +182,8 @@ export const markUserAsVoted = (): void => {
     localStorage.setItem('demoUser', JSON.stringify(user));
   }
 };
+
+// Dummy for deployment – not used in demo
+export const createOrUpdateUser = () => {
+  console.warn("createOrUpdateUser is a stub in demo mode");
+};
